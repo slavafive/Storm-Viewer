@@ -3,11 +3,12 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Images-->
         <scene sceneID="mEU-Jj-r4a">
             <objects>
                 <tableViewController id="OuT-u8-O6E" customClass="ViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Picture" textLabel="srL-fy-ocU" style="IBUITableViewCellStyleDefault" id="5Qu-Tk-sT5">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Picture" textLabel="srL-fy-ocU" style="IBUITableViewCellStyleDefault" id="5Qu-Tk-sT5">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Qu-Tk-sT5" id="yLU-e5-k71">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="srL-fy-ocU">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <rect key="frame" x="20" y="0.0" width="355" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -39,11 +40,40 @@
                             <outlet property="delegate" destination="OuT-u8-O6E" id="i2Q-91-YY6"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="J8h-yc-qN0"/>
+                    <navigationItem key="navigationItem" title="Images" id="J8h-yc-qN0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2FY-fh-li0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836.23188405797111" y="108.48214285714285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Q6Q-gK-mSM">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="tWF-8z-gA5" customClass="DetailViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YlV-Sn-tcy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PIj-y8-7SY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5go-eG-LO1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5go-eG-LO1" firstAttribute="trailing" secondItem="PIj-y8-7SY" secondAttribute="trailing" id="2qE-aV-pqB"/>
+                            <constraint firstItem="PIj-y8-7SY" firstAttribute="leading" secondItem="5go-eG-LO1" secondAttribute="leading" id="8KE-Oj-ZSR"/>
+                            <constraint firstItem="5go-eG-LO1" firstAttribute="bottom" secondItem="PIj-y8-7SY" secondAttribute="bottom" id="Fqs-KX-T4c"/>
+                            <constraint firstItem="PIj-y8-7SY" firstAttribute="top" secondItem="5go-eG-LO1" secondAttribute="top" id="vgg-HJ-DOl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="PIj-y8-7SY" id="xPo-IB-zbH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhr-pv-ftO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1607" y="108"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iqd-ts-zem">
