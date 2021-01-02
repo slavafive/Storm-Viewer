@@ -2,7 +2,7 @@
 
 ## Description
 
-The app based on [Project 1](https://www.hackingwithswift.com/read/1/overview) on Hacking with Swift
+The app based on [Project 1](https://www.hackingwithswift.com/read/1/overview) and [Project 3](https://www.hackingwithswift.com/read/3/overview) on Hacking with Swift
 
 The app that contains a collection of images organized in UITableView:
 
