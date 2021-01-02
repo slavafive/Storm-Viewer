@@ -20,6 +20,8 @@
 		C8375CA0259FA76B0035F28F /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8375C9A259FA76B0035F28F /* nssl0043.jpg */; };
 		C8375CA1259FA76B0035F28F /* nssl0041-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8375C9B259FA76B0035F28F /* nssl0041-2.jpg */; };
 		C8375CA425A072590035F28F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8375CA325A072590035F28F /* DetailViewController.swift */; };
+		C8375CAA25A08F6B0035F28F /* main_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = C8375CA925A08F6B0035F28F /* main_screen.png */; };
+		C8375CAD25A08F710035F28F /* image_example.png in Resources */ = {isa = PBXBuildFile; fileRef = C8375CAC25A08F710035F28F /* image_example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		C8375C9A259FA76B0035F28F /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		C8375C9B259FA76B0035F28F /* nssl0041-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nssl0041-2.jpg"; sourceTree = "<group>"; };
 		C8375CA325A072590035F28F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C8375CA925A08F6B0035F28F /* main_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_screen.png; sourceTree = "<group>"; };
+		C8375CAC25A08F710035F28F /* image_example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		C8375C74259DEE8B0035F28F = {
 			isa = PBXGroup;
 			children = (
+				C8375CA725A08EE70035F28F /* Presentation */,
 				C8375C7F259DEE8C0035F28F /* Storm Viewer */,
 				C8375C7E259DEE8C0035F28F /* Products */,
 			);
@@ -94,6 +99,15 @@
 				C8375C9B259FA76B0035F28F /* nssl0041-2.jpg */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		C8375CA725A08EE70035F28F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C8375CAC25A08F710035F28F /* image_example.png */,
+				C8375CA925A08F6B0035F28F /* main_screen.png */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +169,10 @@
 			files = (
 				C8375C9E259FA76B0035F28F /* nssl0042-2.jpg in Resources */,
 				C8375C8D259DEE8D0035F28F /* LaunchScreen.storyboard in Resources */,
+				C8375CAD25A08F710035F28F /* image_example.png in Resources */,
 				C8375CA0259FA76B0035F28F /* nssl0043.jpg in Resources */,
 				C8375CA1259FA76B0035F28F /* nssl0041-2.jpg in Resources */,
+				C8375CAA25A08F6B0035F28F /* main_screen.png in Resources */,
 				C8375C9D259FA76B0035F28F /* nssl0034-2.jpg in Resources */,
 				C8375C8A259DEE8D0035F28F /* Assets.xcassets in Resources */,
 				C8375C9C259FA76B0035F28F /* nssl0033-2.jpg in Resources */,
