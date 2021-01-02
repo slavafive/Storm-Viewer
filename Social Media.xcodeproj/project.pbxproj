@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8375C7D259DEE8C0035F28F /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8375C7D259DEE8C0035F28F /* Social Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8375C80259DEE8C0035F28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8375C82259DEE8C0035F28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C8375C84259DEE8C0035F28F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		C8375C7E259DEE8C0035F28F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8375C7D259DEE8C0035F28F /* Storm Viewer.app */,
+				C8375C7D259DEE8C0035F28F /* Social Media.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8375C7C259DEE8C0035F28F /* Storm Viewer */ = {
+		C8375C7C259DEE8C0035F28F /* Social Media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8375C91259DEE8D0035F28F /* Build configuration list for PBXNativeTarget "Storm Viewer" */;
+			buildConfigurationList = C8375C91259DEE8D0035F28F /* Build configuration list for PBXNativeTarget "Social Media" */;
 			buildPhases = (
 				C8375C79259DEE8C0035F28F /* Sources */,
 				C8375C7A259DEE8C0035F28F /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = "Storm Viewer";
+			name = "Social Media";
 			productName = "Storm Viewer";
-			productReference = C8375C7D259DEE8C0035F28F /* Storm Viewer.app */;
+			productReference = C8375C7D259DEE8C0035F28F /* Social Media.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C8375C78259DEE8B0035F28F /* Build configuration list for PBXProject "Storm Viewer" */;
+			buildConfigurationList = C8375C78259DEE8B0035F28F /* Build configuration list for PBXProject "Social Media" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8375C7C259DEE8C0035F28F /* Storm Viewer */,
+				C8375C7C259DEE8C0035F28F /* Social Media */,
 			);
 		};
 /* End PBXProject section */
@@ -372,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8375C78259DEE8B0035F28F /* Build configuration list for PBXProject "Storm Viewer" */ = {
+		C8375C78259DEE8B0035F28F /* Build configuration list for PBXProject "Social Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8375C8F259DEE8D0035F28F /* Debug */,
@@ -381,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8375C91259DEE8D0035F28F /* Build configuration list for PBXNativeTarget "Storm Viewer" */ = {
+		C8375C91259DEE8D0035F28F /* Build configuration list for PBXNativeTarget "Social Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8375C92259DEE8D0035F28F /* Debug */,
